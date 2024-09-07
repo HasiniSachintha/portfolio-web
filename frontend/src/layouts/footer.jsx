@@ -8,7 +8,7 @@ import { GrMail } from "react-icons/gr";
 
 function Footer() {
   return (
-    <footer class="border-t-2 border-indigo-500 text-white mt-10" >
+    <footer class="text-white mt-10" >
       <div className='mt-5'>
         <div className='text-center' >
           <h3>Lets connect</h3>
