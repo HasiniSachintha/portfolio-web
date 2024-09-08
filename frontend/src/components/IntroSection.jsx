@@ -8,10 +8,10 @@ function IntroSection() {
     
     {/* Image Section */}
     <div className="relative h-96 w-full md:h-64 lg:h-96 order-1 lg:order-2">
-      <div className="absolute inset-0 bg-[#CF9FFF] rounded-lg h-96 w-full md:h-64 lg:h-96"></div>
+      <div className="absolute inset-0 bg-[#DCFF5B] rounded-lg h-96 w-full md:h-64 lg:h-96"></div>
       <img
         className="relative object-contain h-96 w-full md:h-64 lg:h-96 rounded-lg"
-        src="src/assets/IMG_80034.png"
+        src="https://i.postimg.cc/y8Qs1t3k/IMG-80034.png"
         alt="Profile"
       />
     </div>
