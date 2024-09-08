@@ -3,7 +3,7 @@ import { FaChevronDown } from "react-icons/fa";
 
 function ContactMe() {
   return (
-    <section className="mt-2 mx-4 sm:mx-8 md:mx-16 lg:mx-20 bg-zinc-900 max-h-auto pb-5">
+    <section className="mt-2 mx-4 sm:mx-8 md:mx-16 lg:mx-20 bg-zinc-900 max-h-auto pb-10">
       <div className="container max-w-screen-xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
         {/* Image Section */}
         <div className="relative order-2 lg:order-2">
@@ -132,8 +132,8 @@ function ContactMe() {
           <h1 className="text-2xl md:text-5xl font-bold">
           Get in touch
           </h1>
-          <h2 className="text-xl md:text-4xl font-semibold mt-6 md:mt-10">
-          Let's have a coffee and talk
+          <h2 className="text-xl md:text-3xl font-semibold mt-6 md:mt-10">
+          Let's have a coffee and talk!
           </h2>
           <p className="mt-6 md:mt-10 text-base md:text-lg leading-loose">
           Have an idea, need a solution, or just want to connect? Let’s make it happen!<br/><br/>
