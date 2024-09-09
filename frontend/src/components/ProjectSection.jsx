@@ -11,7 +11,7 @@ const projects = [
     contribution: "Fullstack Development",
     technologies: ["FLUTTER", "FIREBASE", "AWS S3", "REVENUECAT"],
     bgColor: "bg-zinc-900",
-    image: "https://via.placeholder.com/300", // Replace with actual image URL
+    image: "https://via.placeholder.com/300", 
   },
   {
     title: "Kritikos",
@@ -21,7 +21,7 @@ const projects = [
     contribution: "Frontend Development",
     technologies: ["ASTRO.JS", "REACT.JS", "TAILWINDCSS"],
     bgColor: "bg-zinc-900",
-    image: "https://via.placeholder.com/300", // Replace with actual image URL
+    image: "https://via.placeholder.com/300", 
   },
 ];
 
@@ -29,8 +29,8 @@ function ProjectSection() {
   return (
     <section className="py-12">
       <h2 className='text-white text-center text-2xl md:text-5xl font-bold'>My Projects</h2>
-      <div className="container mx-auto px-20 mt-10">
-        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="container mx-auto px-6 md:px-12 lg:px-20 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
@@ -40,20 +40,19 @@ function ProjectSection() {
   );
 }
 
-
 export default ProjectSection;
 
 // ProjectCard Component
 const ProjectCard = ({ title, description, duration, role, contribution, technologies, bgColor, image }) => {
   return (
-    <div className={`${bgColor} p-6 rounded-lg shadow-lg flex items-start space-x-6`}>
+    <div className={`${bgColor} p-4 md:p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-6`}>
       <img
         src={image}
         alt={title}
-        className="w-1/3 h-auto rounded object-cover"
+        className="w-full md:w-1/3 h-auto rounded object-cover"
       />
       <div className="flex-1">
-        <h3 className="text-white text-2xl font-bold mb-2">{title}</h3>
+        <h3 className="text-white text-xl md:text-2xl font-bold mb-2">{title}</h3>
         <p className="text-gray-400 mb-2">{description}</p>
         <p className="text-sm text-gray-500"><strong>Duration:</strong> {duration}</p>
         <p className="text-sm text-gray-500"><strong>Role:</strong> {role}</p>
@@ -67,4 +66,3 @@ const ProjectCard = ({ title, description, duration, role, contribution, technol
     </div>
   );
 };
-
