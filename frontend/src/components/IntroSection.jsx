@@ -3,7 +3,7 @@ import React from "react";
 function IntroSection() {
   return (
     
-    <section className="mt-2 mx-4 sm:mx-8 md:mx-16 lg:mx-20 bg-zinc-900 max-h-auto pb-5">
+    <section className="mt-2 mx-4 sm:mx-8 md:mx-16 lg:mx-20 bg-zinc-900 max-h-auto pb-5 rounded-lg">
   <div className="container max-w-screen-xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
     
     {/* Image Section */}

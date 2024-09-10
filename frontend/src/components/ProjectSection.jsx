@@ -4,12 +4,12 @@ import React from 'react';
 // Sample projects data stored in the frontend
 const projects = [
   {
-    title: "Immersion Meditation",
-    description: "Christ-centric meditation app for Android and iOS.",
-    duration: "1.5 Years",
-    role: "Lead Developer",
-    contribution: "Fullstack Development",
-    technologies: ["FLUTTER", "FIREBASE", "AWS S3", "REVENUECAT"],
+    title: "MedInvent-Connect",
+    description: "Pharmacy-POS and Supplier Side Management System.(second year project)",
+    duration: "8 Months",
+    role: "Full Stack Developer",
+    contribution: "Development of Medicine and Order Management",
+    technologies: ["NodeJS", "Express", "Azure", "Postgress SQL"],
     bgColor: "bg-zinc-900",
     image: "https://via.placeholder.com/300", 
   },
