@@ -45,7 +45,7 @@ export default ProjectSection;
 // ProjectCard Component
 const ProjectCard = ({ title, description, duration, role, contribution, technologies, bgColor, image }) => {
   return (
-    <div className={`${bgColor} p-4 md:p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-6`}>
+    <div className={`${bgColor} p-4 md:p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-6`} id='projects'>
       <img
         src={image}
         alt={title}

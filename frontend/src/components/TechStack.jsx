@@ -57,7 +57,7 @@ const TechStack = () => {
 
 
   return (
-    <div className="mt-2 mx-4 sm:mx-8 md:mx-16 lg:mx-20 bg-zinc-900 py-8 rounded-lg">
+    <div className="mt-2 mx-4 sm:mx-8 md:mx-16 lg:mx-20 bg-zinc-900 py-8 rounded-lg" id="techStack">
       <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-center text-white mb-8 md:mb-12 md:mt-5">
         I Specialize in Spring Boot
       </h2>
